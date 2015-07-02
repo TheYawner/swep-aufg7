@@ -3,7 +3,6 @@
 package de.hrw.swep.biblio.service.benutzer;
 
 import de.hrw.swep.biblio.service.Gebuehr;
-import de.hrw.swep.biblio.service.IllegalStateTransition;
 
 public class Normal implements Benutzerstatus {
 

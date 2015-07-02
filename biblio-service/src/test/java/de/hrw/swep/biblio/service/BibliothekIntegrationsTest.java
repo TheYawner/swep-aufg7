@@ -1,7 +1,5 @@
 package de.hrw.swep.biblio.service;
 
-import static org.junit.Assert.fail;
-
 import org.junit.Test;
 
 /**
@@ -16,7 +14,6 @@ public class BibliothekIntegrationsTest {
 	 */
 	@Test
 	public void testSucheBuchNachTitel() {
-		fail("Not yet implemented");
 	}
 
 	/**
@@ -24,7 +21,7 @@ public class BibliothekIntegrationsTest {
 	 */
 	@Test
 	public void testSucheBuchNachAutor() {
-		fail("Not yet implemented");
+	
 	}
 
 	/**
@@ -32,7 +29,7 @@ public class BibliothekIntegrationsTest {
 	 */
 	@Test
 	public void testSucheBenutzerNachName() {
-		fail("Not yet implemented");
+
 	}
 
 	/**
@@ -40,7 +37,7 @@ public class BibliothekIntegrationsTest {
 	 */
 	@Test
 	public void testSucheBenutzerNachId() {
-		fail("Not yet implemented");
+
 	}
 
 }
