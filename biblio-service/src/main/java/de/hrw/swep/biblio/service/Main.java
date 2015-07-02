@@ -3,7 +3,6 @@
 package de.hrw.swep.biblio.service;
 
 import de.hrw.swep.biblio.persistence.DAO;
-import de.hrw.swep.biblio.service.benutzer.Benutzer;
 
 public class Main {
 

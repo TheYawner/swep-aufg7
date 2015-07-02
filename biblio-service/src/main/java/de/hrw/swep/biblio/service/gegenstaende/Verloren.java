@@ -5,11 +5,12 @@ package de.hrw.swep.biblio.service.gegenstaende;
 import de.hrw.swep.biblio.service.IllegalStateTransition;
 import de.hrw.swep.biblio.service.benutzer.Benutzer;
 
-public class Ausgeliehen implements Ausleihstatus {
+public class Verloren implements Ausleihstatus {
 
+	@SuppressWarnings("unused")
 	private Gegenstand gegenstand;
 
-	public Ausgeliehen(Gegenstand g) {
+	public Verloren(Gegenstand g) {
 		this.gegenstand = g;
 	}
 
@@ -18,11 +19,11 @@ public class Ausgeliehen implements Ausleihstatus {
 	}
 
 	public void zurueckgeben() {
-		this.gegenstand.setState(new Frei(gegenstand));
+		throw new IllegalStateTransition();
 	}
 
 	public void verloren() {
-		this.gegenstand.setState(new Verloren(gegenstand));
+		throw new IllegalStateTransition();
 	}
 
 
