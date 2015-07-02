@@ -1,16 +1,15 @@
 package de.hrw.swep.biblio.service;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.mockito.Mockito.when;
 
 import java.util.HashSet;
 import java.util.Set;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.mockito.*;
+import org.mockito.Mockito;
 
-import static org.mockito.Mockito.*;
-import static org.mockito.AdditionalMatchers.*;
 import de.hrw.swep.biblio.persistence.DBInterface;
 import de.hrw.swep.biblio.persistence.dto.BenutzerDTO;
 import de.hrw.swep.biblio.persistence.dto.BuchDTO;

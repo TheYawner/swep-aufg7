@@ -1,6 +1,6 @@
 package de.hrw.swep.biblio.service;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import java.util.Set;
 
@@ -8,8 +8,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 import de.hrw.swep.biblio.persistence.DAO;
-import de.hrw.swep.biblio.persistence.dto.BenutzerDTO;
-import de.hrw.swep.biblio.persistence.dto.BuchDTO;
 import de.hrw.swep.biblio.service.benutzer.Benutzer;
 import de.hrw.swep.biblio.service.gegenstaende.Buch;
 
