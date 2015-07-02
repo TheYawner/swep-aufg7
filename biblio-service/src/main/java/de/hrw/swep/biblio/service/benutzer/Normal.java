@@ -3,6 +3,7 @@
 package de.hrw.swep.biblio.service.benutzer;
 
 import de.hrw.swep.biblio.service.Gebuehr;
+import de.hrw.swep.biblio.service.IllegalStateTransition;
 
 public class Normal implements Benutzerstatus {
 
@@ -19,7 +20,7 @@ public class Normal implements Benutzerstatus {
 	}
 
 	public void freischalten() {
-		// TODO Statusübergang
+		throw new IllegalStateTransition();
 	}
 
 }
