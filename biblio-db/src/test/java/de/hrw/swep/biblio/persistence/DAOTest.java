@@ -27,7 +27,7 @@ public class DAOTest {
   /**
    * Bringt die Datenbank in einen definierten Ausgangszustand
    * 
-   * @throws Exception
+   * @throws Exception - Fehler
    */
   @Before
   public void setup() throws Exception {
